@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keamogetswe Kgakatsi</title>
+    <link rel="stylesheet" href="./css/stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<!-- Body -->
+
+<body>
+
+    <!-- Header -->
+    <header>
+
+        <div class="heading">
+            <h1>KEAMOGETSWE KGAKATSI</h1>
+            <p>Software Developer</p>
+        </div>
+
+        <!-- navigation bar -->
+        <ul>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#icons">Contact</a></li>
+            <li><a href="#">About me</a></li>
+        </ul>
+
+        <div class = "address">
+            <li class="icon"><a href="https://www.google.com/maps/search/Phokeng+lenatong+0385/@-25.3785131,27.244285,10z/data=!3m1!4b1" target="_blank"><i
+                class="fa-thin fa-location-arrow"></i></i></a></li>
+            <h3>Address</h3>
+            <p>North West</p>
+            <p>Rustenburg</p>
+            <p>Phokeng</p>
+            <p>Lenatong 0385</p>
+        </div>
+
+    </header>
+    <section>
+
+        <!-- Image and intro statement should be aside to each other -->
+
+        <!-- Class parent -->
+        <aside class="container">
+
+            <!-- image -->
+
+            <picture>
+                <source srcset="./image/small.jpg" media="(max-width:600px)">
+                <source srcset="./image/medium.jpg" media="(max-width:992px)">
+                <img src="./image/default.jpg" alt="Picture" width="20%" height="20%">
+
+            </picture>
+
+            <!--Introduction article -->
+            <article>
+                <div class="intro">
+
+                    <h4>About myself</h4>
+                    <p>My name is <strong>Keamogetswe</strong>, my second name is <strong>Suprise</strong> and my
+                        surname is <strong>Kgakatsi</strong>I am egar to learn, self-motivated and I respect time. I enjoy being behind the screen,  I’m a software developer, and I specialize in  CSS and HTML. I have learnt visual studio programming langauge when i was in tertiary. I also did Multimedia which could be of benefit as a software developer.</p>
+                </div>
+
+            </article>
+
+        </aside>
+
+    </section>
+
+
+    <section>
+
+        <!-- content for menu bar -->
+
+        <div class="menu-container">
+
+
+            <div id="edu">
+                <h4 id="education">Education</h4>
+                <br>
+                <P>Tertiary</P>
+                <li>Orbit TVET College</li>
+                <ol>
+                    <li>Information tecchnology and computer scinces (2019-2022)</li>
+                    <li>Level 4 (graduate)</li>
+                </ol>
+                <br>
+                <p>High School</p>
+                <li>Bafokeng High shcool</li>
+                <ol>
+                    <li>Grade 12 (2015 - 2017)</li>
+                    <li>National Certificate</li>
+                </ol>
+            </div>
+
+
+            <div id="exp">
+                <h4 id="experience">Experience</h4>
+                <br>
+                <ul>
+                    <li>Assembling Computer</li>
+                    <br>
+                    <li>vb.net programming</li>
+                    <br>
+                    <li>Cumputer Networking</li>
+                </ul>
+                
+            </div>
+
+            <div id="ski">
+                <h4 id="skills">Skills</h4>
+                <ul>
+                    <li>
+                        <p>HTML</p>
+                        <div id = "flex-skills">60%</div>
+                    </li>
+
+                    <li>
+                        <p>CSS</p>
+                        <div id = "flex-skills">35%</div>
+                    </li>
+                    
+                    <li>
+                        <p>Javascript</p>
+                        <div id = "flex-skills">10%</div>
+                    </li>
+
+                    <li>
+                        <p>VB.net</p>
+                        <div id = "flex-skills">70%</div>
+                    </li>
+                    
+                    
+                    
+                </ul>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <!--------------------------- form----------------------------------->
+
+
+        <form method="post" action="https://formsubmit.co/stimulatekay11ew@gmail.com">
+            <h2 id="online">Online Form</h2>
+
+
+            <div id="type1">
+
+                <label for="first-name">Enter Your First Name: <input id="first-name" name="first-name" type="text"
+                        required /></label>
+                <br>
+                <label for="last-name">Enter Your Last Name: <input id="last-name" name="last-name" type="text"
+                        required /></label>
+                <br>
+                <label for="email">Enter Your Email: <input id="email" name="email" type="email" required /></label>
+            </div>
+
+
+            <div id="type2">
+
+                Looking for? <select id="referrer" name="referrer">
+                    <option value="">Frontend Webpage Developer</option>
+                    <option value="1">Backend Webpage Developer</option>
+                    <option value="2">Full Stack</option>
+                </select>
+            </div>
+
+            <div id="type3">
+
+                <label for="student">Are you considered as? <input id="student" type="radio" name="account-type" />
+                    Student</label>
+                <label for="organisation"><input id="student" type="radio" name="account-type" />
+                    Organisation</label>
+            </div>
+
+            <textarea id="bio" name="bio" rows="3" cols="30"></textarea>
+            </label>
+            <br>
+            <input class="submit" type="submit" value="Send">
+
+
+        </form>
+
+
+
+
+
+        <!-- Icons -->
+
+        <div id="icons">
+            <p id="connect">Connect with me</p>
+            <li class="icon"><a href="https://www.linkedin.com/public-profile/settings" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></i></a></li>
+            <li class="icon"><a href="https://www.instagram.com/stimulate_kay/?igshid=YmMyMTA2M2Y%3D" target="_blank"><i
+                        class="fa-brands fa-square-instagram"></i></i></a></li>
+            <li class="icon"><a href="https://github.com/kgakatsikeamogetswe" target="_blank"><i
+                        class="fa-brands fa-github"></i></i></a></li>
+            
+            <div id = "extras">
+            <p>Reach me here: 067 977 7367</p>
+            <p>Or at stimulatekay11ew@gmail.com</p>
+            </div>
+
+        </div>
+        
+
+    </footer>
+
+
+</body>
+
+</html>
